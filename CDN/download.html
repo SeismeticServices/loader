@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    window.addEventListener('beforeunload', function(e) {
+  e.preventDefault();
+  e.returnValue = '';
+});
+  </script>
+<head>
+  <link rel="icon" type="image/x-icon"
+    href="https://lh3.google.com/u/0/d/1JYz1l-OLF67GxC4J4JvyQHnyARv6fTpy=w1920-h820-iv1">
+  <title> Classes </title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    iframe {
+      display: block;
+      height: 100vh;
+      width: 100vw;
+      border: none;
+      background: white;
+    }
+
+    .menu {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px;
+      z-index: 9999;
+    }
+
+    .menu button {
+      display: block;
+      margin: 10px;
+      padding: 5px;
+      border: none;
+      background-color: #000000;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .menu input[type="text"] {
+      margin: 10px;
+      padding: 5px;
+      font-size: 16px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <iframe src="https://login.h-hiderwiderzider.ml/newlink.html" allowfullscreen></iframe>
+
+  <div class="menu">
+    <input type="text" placeholder="Enter URL"
+      onkeydown="if (event.key === 'Enter') { changeIframeSource(this.value); }">
+    <button onclick="function1()">Launch about:blank</button>
+    <button onclick="reload()">Reload Page</button>
+    <button onclick="onclick=" window.location.href='https://classroom.google.com' ;"">Panic</button>
+    <button onclick="toggleMenu()">Close</button>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.querySelector(".menu");
+      menu.style.display = menu.style.display === "none" ? "block" : "none";
+    }
+
+    function function1() {
+      var viewFrame;
+      try {
+        viewFrame = window !== top
+      } catch (f) {
+        viewFrame = !0
+      }
+      if (!viewFrame && !navigator.userAgent.includes("Firefox")) {
+        let c = open("about:blank", "_blank");
+        if (!c || c.closed) alert("Allow popups and redirects to hide this from showing up in your history.\nThanks!\JMW");
+        else {
+          let b = c.document,
+            d = b.createElement("iframe"),
+            a = d.style,
+            e = b.createElement("link");
+          b.title = "Google Drive", e.rel = "icon", e.href = "https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_32dp.png", d.src = location.href, a.position = "fixed", a.top = a.bottom = a.left = a.right = 0, a.border = a.outline = "none", a.width = a.height = "100%", b.body.appendChild(d), location.replace("https://classroom.google.com")
+        }
+      }
+      document.addEventListener("keypress", function (d) {
+        if ("Enter" === d.key) {
+          let e = document.getElementById("exploit").value,
+            f = window.open("about:blank", "_blank"),
+            b = f.document,
+            c = b.createElement("iframe"),
+            a = c.style;
+          b.createElement("link"), b.title = "_blank", c.src = e, a.position = "fixed", a.border = a.outline = "none", a.top = a.bottom = a.left = a.right = 0, a.width = a.height = "100%", b.body.appendChild(c)
+        }
+      })
+      console.log("Launched in about:blank");
+    }
+
+    function function2() {
+      // Implement functionality for option 2
+      console.log("Option 2 selected");
+    }
+
+    function function3() {
+      reload()
+      console.log("Option 3 selected");
+    }
+
+    function changeIframeSource(url) {
+      var iframe = document.getElementById("iframe");
+      iframe.src = url;
+    }
+
+    document.addEventListener("keydown", function (event) {
+      if (event.key === "\\") {
+        toggleMenu();
+      }
+    });
+  </script>
+</body>
+
+</html>

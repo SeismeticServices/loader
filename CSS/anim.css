@@ -1,0 +1,88 @@
+
+#particles-js{ 
+  z-index: -1;
+  position:absolute; 
+  width: 100%; 
+  height: 100%; 
+  background-repeat: no-repeat; 
+  background-position: 50% 50%; 
+} 
+
+body {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0;
+			padding: 0;
+      color: white;
+      font-family: sans-serif;
+		}
+
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: transparent;
+			border-radius: 50%;
+			height: 100px;
+			width: 100px;
+		}
+
+		.redirect {
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 14px;
+			color: rgba(255, 255, 255, 0.5);
+			text-align: center;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			max-width: 80%;
+		}
+		
+.proxycontainer {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.image-container {
+  border-radius: 20%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container h2 {
+  color: white;
+}
+
+.redirect-btn {
+  background-color: #555;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.redirect-btn:hover {
+  background-color: #777;
+}

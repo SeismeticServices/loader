@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Logo with rotating gradient background</title>
+	<style>
+		body {
+			background: linear-gradient(-45deg, #eb7900, #ac00eb, #000000, #ffffff);
+			background-size: 400% 400%;
+			animation: gradient 15s ease infinite;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+		}
+
+		.logo {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: transparent;
+			border-radius: 50%;
+			height: 100px;
+			width: 100px;
+		}
+
+		.redirect {
+			position: absolute;
+			bottom: 10px;
+			left: 50%;
+			transform: translateX(-50%);
+			font-size: 14px;
+			color: rgba(255, 255, 255, 0.5);
+			text-align: center;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			max-width: 80%;
+		}
+		
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="logo">
+		<img src="./SeismeticUI.png" alt="Logo" height="50px">
+	</div>
+	<div class="redirect">
+		<span id="countdown"></span>
+		<br>
+		<span id="message"></span>
+	</div>
+<script>
+	var timeLeft = 10;
+	var countdown = document.getElementById("countdown");
+	var message = document.getElementById("message");
+	var messages = [
+		"Please wait while we redirect you...",
+		"Your page will load shortly...",
+		"Thank you for your patience...",
+		"Redirecting to our website...",
+		"Almost there...",
+		"Preparing to load page..."
+	];
+	var urls = [
+		"https://projectligma.onrender.com",
+    "https://rafebisnotsmart.onrender.com",
+    "https://anotherworld.onrender.com",
+    "https://ohioserver.onrender.com"
+	];
+	
+	function updateTimeLeft() {
+		countdown.innerHTML = timeLeft;
+		if (timeLeft === 0) {
+			clearInterval(countdownTimer);
+			var randomIndex = Math.floor(Math.random() * urls.length);
+			window.location.href = urls[randomIndex];
+		}
+		timeLeft--;
+	}
+	
+	function updateMessage() {
+		var randomIndex = Math.floor(Math.random() * messages.length);
+		message.innerHTML = messages[randomIndex];
+	}
+	
+	updateTimeLeft();
+	updateMessage();
+	var countdownTimer = setInterval(function() {
+		updateTimeLeft();
+		updateMessage();
+	}, 1000);
+</script>
+</body>
+</html>
