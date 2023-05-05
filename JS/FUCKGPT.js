@@ -10,10 +10,10 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://sv1.desmondsmp.gq",
-	"https://sv2.desmondsmp.gq",
-  "https://sv3.desmondsmp.gq",
-  "https://sv4.desmondsmp.gq"
+  "https://singapore.desmondsmp.gq",
+	"https://west.desmondsmp.gq",
+  "https://ohio.desmondsmp.gq",
+  "https://eu.desmondsmp.gq"
 ];
 
 function seismetic() {
