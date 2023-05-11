@@ -10,9 +10,7 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://eux.desmondsmp.gq/",
-	"https://oregonx.desmondsmp.gq/",
-  "https://ohiox.desmondsmp.gq/"
+	"https://oregonx.desmondsmp.gq/"
 ];
 
 function seismetic() {
