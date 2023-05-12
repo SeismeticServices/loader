@@ -6,7 +6,7 @@ html, body {
     backdrop-filter: blur(100%);
     margin: 0;
     padding: 0;
-background: linear-gradient(153deg, #1f0f0f 1%, #000000 23%, #522121 82%, #000000 100%);
+background: linear-gradient(153deg, #101f0f 1%, #000000 23%, #2b5221 82%, #000000 100%);
 }
 
 body { 
@@ -54,7 +54,7 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 25px;
-  background-color: #61180d;
+  background-color: #093908;
   color: white;
   height: 64px;
   width: 256px;
@@ -68,7 +68,7 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   border: none;
   border-radius: 25px;
-  background-color: #61180d;
+  background-color: #10610d;
   color: white;
   height: 64px;
   width: 198px;
@@ -99,14 +99,14 @@ body {
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: #FF0000;
+    background-color: #00ff2f;
     border-radius: 10px;
   }
   
   /* Style the scrollbar in Firefox */
   * {
     scrollbar-width: thin;
-    scrollbar-color: #FF0000 #000000;
+    scrollbar-color: #5fe337 #000000;
   }
   
   *::-webkit-scrollbar {
@@ -118,7 +118,7 @@ body {
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: #FF0000;
+    background-color: #5bca2b;
     border-radius: 10px;
   }
   
@@ -129,7 +129,7 @@ body {
 font-weight: 32px;
     backdrop-filter: blur(35px);
     box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-    background-color: rgba(104, 23, 23, 0.178);
+    background-color: rgba(37, 104, 23, 0.178);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,7 +179,7 @@ margin: 0 24px;
   }
 
 .navbar button:hover {
-    color: red;
+    color: rgb(51, 196, 77);
     animation: fadeIn 0.5s ease-in-out;
 }
 
@@ -206,7 +206,7 @@ margin: 0 24px;
   justify-content: center;
   align-items: center;
   align-content: center;
-  border: 2px solid rgb(190, 71, 71);
+  border: 2px solid rgb(95, 190, 71);
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -246,7 +246,7 @@ margin: 0 24px;
 .modeselection-box .launch-btn {
   border-radius: 10px;
   display: block;
-  background-color: rgb(189, 23, 23);
+  background-color: rgb(48, 189, 23);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
   text-align: center;
@@ -301,7 +301,7 @@ label {
   font-size: 19px;
   padding: 5px;
   margin-bottom: 20px;
-  border: 2px solid rgb(150, 61, 58);
+  border: 2px solid rgb(58, 150, 64);
   border-radius: 5px;
   background-color: transparent;
   transition: width 0.5s ease, border-radius 0.5s ease 0.1s;
@@ -319,11 +319,11 @@ label {
 #uv-address:focus {
   width: 800px;
   border-radius: 50px;
-  border: 3px solid rgb(92, 60, 60);
+  border: 3px solid rgb(61, 92, 60);
 }
 
 button[type="submit"] {
-  background-color: #963d3a;
+  background-color: #82963a;
   color: white;
   font-size: 18px;
   padding: 10px 20px;
@@ -349,7 +349,7 @@ button[type="submit"] {
   height: 180px;
   border: 2px solid rgb(49, 36, 36);
   border-radius: 10px;
-  background-color: #1f0f0f;
+  background-color: #111f0f;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   overflow: hidden;
 }
@@ -389,7 +389,7 @@ button[type="submit"] {
 .gamebox__button {
   font-size: large;
   margin-top: 25px;
-  background-color: #b41a1a;
+  background-color: #50b41a;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -398,5 +398,5 @@ button[type="submit"] {
 }
 
 .gamebox__button:hover {
-  background-color: #8e3e3e;
+  background-color: #578e3e;
 }
