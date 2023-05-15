@@ -10,11 +10,9 @@ function ligmaurls() {
 }
 
 var seisurl = [
-	"https://5.desmondsmp.gq/",
-  "https://4.desmondsmp.gq",
-  "https://3.desmondsmp.gq",
-  "https://2.desmondsmp.gq",
-  "https://1.desmondsmp.gq"
+	"https:/4.archivednebulatest.ml/",
+  "https://3.archivednebulatest.ml/",
+  "https://2.archivednebulatest.ml/"
 ];
 
 function seismetic() {
