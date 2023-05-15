@@ -10,7 +10,7 @@ function ligmaurls() {
 }
 
 var seisurl = [
-	"https:/4.archivednebulatest.ml/",
+"https:/4.archivednebulatest.ml/",
   "https://3.archivednebulatest.ml/",
   "https://2.archivednebulatest.ml/"
 ];
