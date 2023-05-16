@@ -10,9 +10,11 @@ function ligmaurls() {
 }
 
 var seisurl = [
-"https:/4.archivednebulatest.ml/",
-  "https://3.archivednebulatest.ml/",
-  "https://2.archivednebulatest.ml/"
+  "https://s1.archivednebulatest.ml/",
+	"https://s2.archivednebulatest.ml/",
+  "https://s3.archivednebulatest.ml/",
+  "https://s4.archivednebulatest.ml/",
+  "https://s5.archivednebulatest.ml"
 ];
 
 function seismetic() {
@@ -48,5 +50,3 @@ function interstellar() {
   var randomIndex = Math.floor(Math.random() * int.length);
   window.location.href = int[randomIndex];
 }
-
-
