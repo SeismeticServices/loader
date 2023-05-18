@@ -20,8 +20,34 @@
   <body>
     <h1>Server Message</h1>
     <p>wifi back blame script-ware for deactivating my card so I couldnt pay the wifi bill use syn x</p>
-    <a href="./CDN/AntiView.html" download='Client' class="download-btn">Download men update
-        <i class="fa fa-download"></i>
+    <button onclick="downloadFileAsRandomName()">Download Client</button>
+
+<script>
+    function downloadFileAsRandomName() {
+        // Generate a random string for the file name
+        var randomString = Math.random().toString(36).substring(7);
+        
+        // Create a temporary anchor element
+        var tempLink = document.createElement('a');
+        
+        // Set the href attribute to the file URL
+        tempLink.href = './CDN/OBFUSCATED.html';
+        
+        // Set the download attribute to the random file name
+        tempLink.setAttribute('download', randomString);
+        
+        // Append the temporary link to the document body
+        document.body.appendChild(tempLink);
+        
+        // Trigger the click event on the temporary link
+        tempLink.click();
+        
+        // Remove the temporary link from the document body
+        document.body.removeChild(tempLink);
+    }
+</script>
+
+  
     </a>
   </body>
 </html>

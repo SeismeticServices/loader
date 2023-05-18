@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+		function aler() {
+			alert("DISCORD SERVER IS DISCORD.GG/raURXdX8Cy")
+		}
+    </script>
+    <title>Seismetic | Games</title>
+    <link rel="stylesheet" href="CSS/register.css">
+    <meta name="googlebot" content="noindex, nofollow, nosnippet" />
+    <link rel="shortcut icon" content="/img/Sm.png" />
+    <script src="./JS/particles.js" defer></script>
+    <script src="./JS/window.js" defer></script>
+    <script src="./JS/FUCKGPT.js" defer></script>
+  </head>
+
+  <body>
+    <script>
+const username = localStorage.getItem('username');
+
+if (username) {
+  window.location.href = 'handler.html';
+}
+    </script>
+    <h1> </h1>
+      <div class="container">
+        <div class="signup-box">
+          <h1>Welcome to Seismetic!</h1>
+          <p>To use Seismetic you need a account why? because this a whitelisted project</p>
+          <input type="text" class="signup-input" id="username-input" placeholder="Enter your username">
+          <button class="glowing-button" id="signup-button" onclick="check()">Sign Up</button>
+        </div>
+        <div class="logo-container">
+          <img src="assets/img/Color.png" alt="Logo" class="logo">
+          <h1 class="heading">SeismeticV2</h1>
+          <button class="logo-button" onclick="aler()">Discord</button>
+        </div>
+        </div>
+    <script>
+      function check() {
+        var username = document.getElementById('username-input').value;
+        var encodedUsername = btoa(username);
+  
+        localStorage.setItem('username', encodedUsername);
+  
+        var urls = [
+          'https://s1.archivednebulatest.ml/',
+          'https://s2.archivednebulatest.ml//',
+          'https://s3.archivednebulatest.ml//',
+          'https://s4.archivednebulatest.ml/',
+          'https://s5.archivednebulatest.ml/'
+        ];
+  
+        var randomIndex = Math.floor(Math.random() * urls.length);
+        var redirectUrl = urls[randomIndex] + 'register/#' + encodedUsername;
+  
+        window.location.href = redirectUrl;
+      }
+    </script>
+    </div>
+    <div id="particles-js"></div>
+    <span class="js-count-particles"></span>
+    <script src="./JS/min.js"></script>
+  </body>
+</html>
