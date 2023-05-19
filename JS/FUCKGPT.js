@@ -10,11 +10,11 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://s1.archivednebulatest.ml/",
-	"https://s2.archivednebulatest.ml/",
-  "https://s3.archivednebulatest.ml/",
-  "https://s4.archivednebulatest.ml/",
-  "https://s5.archivednebulatest.ml"
+  "https://a1.archivednebulatest.ml/",
+	"https://a2.archivednebulatest.ml/",
+  "https://a3.archivednebulatest.ml/",
+  "https://a4.archivednebulatest.ml/",
+  "https://a5.archivednebulatest.ml"
 ];
 
 function seismetic() {
