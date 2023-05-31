@@ -3,7 +3,7 @@ const encryptedUsername = localStorage.getItem("username");
 if (encryptedUsername) {
   const decodedUsername = atob(encryptedUsername);
   const lowercaseUsername = decodedUsername.toLowerCase();
-  const targetSubstring = "noah ham";
+  const targetSubstring = "noah";
 
   if (lowercaseUsername.includes(targetSubstring.toLowerCase())) {
     window.location.href = "../banSystem.png";
