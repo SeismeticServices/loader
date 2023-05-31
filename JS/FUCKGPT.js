@@ -1,3 +1,19 @@
+const encryptedUsername = localStorage.getItem("username");
+
+if (encryptedUsername) {
+  const decodedUsername = atob(encryptedUsername);
+  const lowercaseUsername = decodedUsername.toLowerCase();
+  const targetSubstring = "noah ham";
+
+  if (lowercaseUsername.includes(targetSubstring.toLowerCase())) {
+    window.location.href = "../banSystem.png";
+  } else {
+    console.log("Username does not contain 'noah ham'.");
+  }
+} else {
+  console.log("Username not found in localStorage.");
+}
+
 var ligma = [
   "https://example1.com",
   "https://example2.com",
