@@ -29,7 +29,11 @@ var seisurl = [
   "https://war1.archivednebulatest.ml/",
 	"https://war2.archivednebulatest.ml/",
   "https://war3.archivednebulatest.ml/",
-  "https://war4.archivednebulatest.ml/"
+  "https://war4.archivednebulatest.ml/",
+  "https://war5.archivednebulatest.ml/",
+  "https://war6.archivednebulatest.ml/",
+  "https://war7.archivednebulatest.ml/",
+  "https://war8.archivednebulatest.ml/"
 ];
 
 function seismetic() {
