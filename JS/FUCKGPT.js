@@ -3,7 +3,7 @@ const encryptedUsername = localStorage.getItem("username");
 if (encryptedUsername) {
   const decodedUsername = atob(encryptedUsername);
   const lowercaseUsername = decodedUsername.toLowerCase();
-  const targetSubstring = "noah";
+  const targetSubstring = "coach";
 
   if (lowercaseUsername.includes(targetSubstring.toLowerCase())) {
     window.location.href = "../banSystem.png";
@@ -26,10 +26,10 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://m1.archivednebulatest.ml/",
-	"https://m2.archivednebulatest.ml/",
-  "https://m3.archivednebulatest.ml/",
-  "https://m4.archivednebulatest.ml/"
+  "https://support.archivednebulatest.ml/",
+	"https://help.archivednebulatest.ml/",
+  "https://about.archivednebulatest.ml/",
+  "https://blog.archivednebulatest.ml/"
 ];
 
 function seismetic() {
