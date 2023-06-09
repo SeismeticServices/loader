@@ -26,14 +26,14 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://end1.archivednebulatest.ml/",
-	"https://end2.archivednebulatest.ml/",
-  "https://end3.archivednebulatest.ml/",
-  "https://end4.archivednebulatest.ml/",
-  "https://end5.archivednebulatest.ml/",
-	"https://end6.archivednebulatest.ml/",
-  "https://end7.archivednebulatest.ml/",
-  "https://end8.archivednebulatest.ml/"
+  "https://cdn1.archivednebulatest.ml/",
+	"https://cdn2.archivednebulatest.ml/",
+  "https://cdn3.archivednebulatest.ml/",
+  "https://cdn4.archivednebulatest.ml/",
+  "https://cdn5.archivednebulatest.ml/",
+	"https://cdn6.archivednebulatest.ml/",
+  "https://cdn7.archivednebulatest.ml/",
+  "https://cdn8.archivednebulatest.ml/"
 ];
 
 function seismetic() {
