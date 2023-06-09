@@ -26,16 +26,20 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://support.archivednebulatest.ml/",
-	"https://help.archivednebulatest.ml/",
-  "https://about.archivednebulatest.ml/",
-  "https://blog.archivednebulatest.ml/"
+  "https://end1.archivednebulatest.ml/",
+	"https://end2.archivednebulatest.ml/",
+  "https://end3.archivednebulatest.ml/",
+  "https://end4.archivednebulatest.ml/",
+  "https://end5.archivednebulatest.ml/",
+	"https://end6.archivednebulatest.ml/",
+  "https://end7.archivednebulatest.ml/",
+  "https://end8.archivednebulatest.ml/"
 ];
 
 function seismetic() {
   var username = localStorage.getItem("username"); // Get username from local storage
   var randomIndex = Math.floor(Math.random() * seisurl.length);
-  var url = seisurl[randomIndex] + "/register/login.html#" + username; // Append username to URL
+  var url = seisurl[randomIndex] + "register/login.html#" + username; // Append username to URL
   window.location.href = url;
 }
 
