@@ -26,7 +26,7 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://elliante.archivednebulatest.ml/"
+  "https://elliante.archivednebulatest.ml"
 ];
 
 function seismetic() {
