@@ -26,14 +26,7 @@ function ligmaurls() {
 }
 
 var seisurl = [
-  "https://cdn1.archivednebulatest.ml/",
-	"https://cdn2.archivednebulatest.ml/",
-  "https://cdn3.archivednebulatest.ml/",
-  "https://cdn4.archivednebulatest.ml/",
-  "https://cdn5.archivednebulatest.ml/",
-	"https://cdn6.archivednebulatest.ml/",
-  "https://cdn7.archivednebulatest.ml/",
-  "https://cdn8.archivednebulatest.ml/"
+  "https://elliante.archivednebulatest.ml/",
 ];
 
 function seismetic() {
